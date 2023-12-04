@@ -16,3 +16,5 @@ dependencyResolutionManagement {
 rootProject.name = "HelloWorld"
 include(":app")
 include(":mod2ihm")
+include(":mod2ihm2")
+include(":mod3lib")
