@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mod2ihm</string>
+    <string name="tv_form">Formulaire</string>
+    <string name="et_hint_name">Nom</string>
+    <string name="et_hint_age">Age</string>
+    <string name="btn_send">Envoyer</string>
+</resources>
