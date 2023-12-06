@@ -5,10 +5,25 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="demo4viewbinding">
+        <State />
+      </entry>
       <entry key="mod2ihm">
         <State />
       </entry>
       <entry key="mod2ihm2">
+        <State />
+      </entry>
+      <entry key="mod4clickbutton">
+        <State />
+      </entry>
+      <entry key="mod4databinding">
+        <State />
+      </entry>
+      <entry key="mod4findviewbyid">
+        <State />
+      </entry>
+      <entry key="mod4viewbinding">
         <State />
       </entry>
     </value>

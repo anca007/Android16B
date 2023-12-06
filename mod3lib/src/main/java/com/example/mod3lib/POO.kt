@@ -27,8 +27,6 @@ fun main() {
 
     val c = Cahier(52, "Oxford")
     println(c)
-
-
 }
 
 
