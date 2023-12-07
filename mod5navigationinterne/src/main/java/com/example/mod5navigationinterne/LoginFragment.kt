@@ -27,8 +27,17 @@ class LoginFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.button.setOnClickListener {
+
+            val user = User(
+                binding.etLogin.text.toString(),
+                binding.etPassword.text.toString()
+            )
+
+            val direction = LoginFragmentDirections.loginFragmentToHomeFragment(user)
+            Navigation.findNavController(view).navigate(direction)
+
             //on navigue vers l'id de la flèche
-            Navigation.findNavController(view).navigate(R.id.loginFragmentToHomeFragment)
+            //Navigation.findNavController(view).navigate(R.id.loginFragmentToHomeFragment)
 
         }
 

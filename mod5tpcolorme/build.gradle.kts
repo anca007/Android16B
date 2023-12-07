@@ -1,18 +1,14 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    //passage de paramètre entre fragment
-    id("androidx.navigation.safeargs")
-    //parcelable
-    id("kotlin-parcelize")
 }
 
 android {
-    namespace = "com.example.mod5navigationinterne"
+    namespace = "com.example.mod5tpcolorme"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.mod5navigationinterne"
+        applicationId = "com.example.mod5tpcolorme"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -37,17 +33,12 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-
-    buildFeatures {
-        dataBinding = true
-    }
 }
-
 
 dependencies {
 
     val nav_version = "2.5.3"
-    // Kotlin
+// Kotlin
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 

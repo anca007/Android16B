@@ -19,6 +19,8 @@
             <option value="$PROJECT_DIR$/mod4tprandom" />
             <option value="$PROJECT_DIR$/mod4viewbinding" />
             <option value="$PROJECT_DIR$/mod5navigationinterne" />
+            <option value="$PROJECT_DIR$/mod5tpcolorme" />
+            <option value="$PROJECT_DIR$/mod6intentexplicite" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
