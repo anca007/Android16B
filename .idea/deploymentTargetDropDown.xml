@@ -38,6 +38,15 @@
       <entry key="mod6intentexplicite">
         <State />
       </entry>
+      <entry key="mod6intentimplicite">
+        <State />
+      </entry>
+      <entry key="mod6permission">
+        <State />
+      </entry>
+      <entry key="mod7democycledevie">
+        <State />
+      </entry>
     </value>
   </component>
 </project>

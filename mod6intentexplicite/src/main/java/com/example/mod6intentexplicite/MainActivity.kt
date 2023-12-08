@@ -17,8 +17,9 @@ class MainActivity : AppCompatActivity() {
                 startActivity(it)
             }
 
-            //val intent = Intent(this, TargetActivity::class.java)
-
+//            val intent = Intent(this, TargetActivity::class.java)
+//            intent.putExtra("temperature", 28)
+//            startActivity(intent)
         }
 
 
