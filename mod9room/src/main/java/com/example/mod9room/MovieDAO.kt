@@ -10,13 +10,15 @@ import androidx.room.Update
 interface MovieDAO {
     @Insert
     fun insert(movie: Movie): Long
+
     @Update
     fun update(movie: Movie)
+
     @Delete
     fun delete(movie: Movie)
 
     @Query("SELECT * FROM Movie WHERE id = :id")
-    fun selectById(id : Long): Movie
+    fun selectById(id: Long): Movie
 
 
 }

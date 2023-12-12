@@ -38,6 +38,14 @@ android {
 
 dependencies {
 
+
+    implementation("androidx.room:room-ktx:2.5.0")
+
+    val lifecycle_version = "2.4.0"
+    // ViewModelScope et coroutine
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+
+
     val room_version = "2.5.0"
 
     implementation("androidx.room:room-runtime:$room_version")
@@ -65,6 +73,8 @@ dependencies {
 
     // optional - Paging 3 Integration
     implementation("androidx.room:room-paging:$room_version")
+
+    implementation("androidx.fragment:fragment-ktx:1.5.5")
 
 
 
