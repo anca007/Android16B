@@ -17,7 +17,7 @@ class DiceViewModel : ViewModel() {
         totalLeft += launchRandom()
     }
 
-    fun launchRight(){
+    fun launchRight() {
         nbLaunchRight++
         totalRight += launchRandom()
     }

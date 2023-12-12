@@ -2,6 +2,9 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="MovieDbTest">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>
@@ -51,9 +54,25 @@
         <State />
       </entry>
       <entry key="mod8tpdice">
-        <State />
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\stropee\.android\avd\Medium_Phone_API_26.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-12-12T08:49:38.976995600Z" />
+        </State>
       </entry>
       <entry key="mod8viewmodel">
+        <State />
+      </entry>
+      <entry key="mod9room">
         <State />
       </entry>
     </value>
