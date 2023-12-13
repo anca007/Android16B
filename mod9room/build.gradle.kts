@@ -38,9 +38,6 @@ android {
 
 dependencies {
 
-
-    implementation("androidx.room:room-ktx:2.5.0")
-
     val lifecycle_version = "2.4.0"
     // ViewModelScope et coroutine
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")

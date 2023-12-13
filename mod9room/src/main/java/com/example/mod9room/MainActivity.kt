@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         vm.addMovie(movie).observe(this) {
             Log.i(TAG, "Id du film créé $it")
-            //récupération du film qeu l'onvient de créer
+            //récupération du film que l'on vient de créer
             vm.getMovie(it)
             vm.movie.observe(this) { movie ->
                 Log.i(TAG, movie.toString())
